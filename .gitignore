@@ -1,0 +1,25 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Sensitive/local files
+.env
+.env.*
+*.pem
+*.key
+
+# Terraform lock file
+# Keep this file in Git for provider version consistency.
+# .terraform.lock.hcl
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
